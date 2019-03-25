@@ -1,0 +1,11 @@
+﻿# 3 ITEMS #
+
++ private OnAnimatorIK(int) { ... }
+private OnAnimatorMove() { ... }
+private OnDidApplyAnimationProperties() { ... }
+# AUTOMATIC #
+# 3 ITEMS #
+
++ private OnAnimatorIK(int) { ... }
+private OnAnimatorMove() { ... }
+private OnDidApplyAnimationProperties() { ... }

@@ -1,0 +1,10 @@
+﻿Provided elements:
+ 0: OnJointBreak(System.Single):System.Void
+
+// ${KIND:Unity.EventFunctions}
+using UnityEngine;
+
+class A : Joint
+{
+    {caret}
+}

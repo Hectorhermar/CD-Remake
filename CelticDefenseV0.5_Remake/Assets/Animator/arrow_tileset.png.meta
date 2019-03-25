@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 5651727e77aa2454899cf82ea5408b46
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: arrow_tileset_0
+    21300002: arrow_tileset_1
+    21300004: arrow_tileset_2
+    21300006: arrow_tileset_3
+    21300008: arrow_tileset_4
+    21300010: arrow_tileset_5
+    21300012: arrow_tileset_6
+    21300014: arrow_tileset_7
+    21300016: arrow_tileset_8
+    21300018: arrow_tileset_9
+    21300020: arrow_tileset_10
+    21300022: arrow_tileset_11
+    21300024: arrow_tileset_12
+    21300026: arrow_tileset_13
+    21300028: arrow_tileset_14
+    21300030: arrow_tileset_15
+    21300032: arrow_tileset_16
+    21300034: arrow_tileset_17
+    21300036: arrow_tileset_18
+    21300038: arrow_tileset_19
+    21300040: arrow_tileset_20
+    21300042: arrow_tileset_21
+    21300044: arrow_tileset_22
+    21300046: arrow_tileset_23
+    21300048: arrow_tileset_24
+    21300050: arrow_tileset_25
+    21300052: arrow_tileset_26
+    21300054: arrow_tileset_27
+    21300056: arrow_tileset_28
+    21300058: arrow_tileset_29
+    21300060: arrow_tileset_30
+    21300062: arrow_tileset_31
+    21300064: arrow_tileset_32
+    21300066: arrow_tileset_33
+    21300068: arrow_tileset_34
+    21300070: arrow_tileset_35
+    21300072: arrow_tileset_36
+    21300074: arrow_tileset_37
+    21300076: arrow_tileset_38
+    21300078: arrow_tileset_39
+    21300080: arrow_tileset_40
+    21300082: arrow_tileset_41
+    21300084: arrow_tileset_42
+    21300086: arrow_tileset_43
+    21300088: arrow_tileset_44
+    21300090: arrow_tileset_45
+    21300092: arrow_tileset_46
+    21300094: arrow_tileset_47
+    21300096: arrow_tileset_48
+    21300098: arrow_tileset_49
+    21300100: arrow_tileset_50
+    21300102: arrow_tileset_51
+    21300104: arrow_tileset_52
+    21300106: arrow_tileset_53
+    21300108: arrow_tileset_54
+    21300110: arrow_tileset_55
+    21300112: arrow_tileset_56
+    21300114: arrow_tileset_57
+    21300116: arrow_tileset_58
+    21300118: arrow_tileset_59
+    21300120: arrow_tileset_60
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arrow_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4454
+        width: 604
+        height: 326
+      alignment: 9
+      pivot: {x: 0.13695824, y: 0.61449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b858dd240de89844ab11b1142ff3c66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 4454
+        width: 602
+        height: 326
+      alignment: 9
+      pivot: {x: 0.11250219, y: 0.61449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321e75bd6a2057348a87393bdf10c497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 4454
+        width: 605
+        height: 326
+      alignment: 9
+      pivot: {x: 0.12213488, y: 0.5715557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4152e3fc4cf620f438f3f675e9d49fdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 4454
+        width: 605
+        height: 326
+      alignment: 9
+      pivot: {x: 0.1375581, y: 0.5858671}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915de4c54e4b6204da63b08e658b8f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 4458
+        width: 604
+        height: 322
+      alignment: 9
+      pivot: {x: 0.15240681, y: 0.57244456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec2141797e49849842a458d5c3c80a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 4458
+        width: 605
+        height: 322
+      alignment: 9
+      pivot: {x: 0.16069216, y: 0.6159122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a57e313f700e3d488e5bc03f3571312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 6347
+        y: 4458
+        width: 603
+        height: 322
+      alignment: 9
+      pivot: {x: 0.17504032, y: 0.6159122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c127384846dd7747b1b586610b6d817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 7367
+        y: 4458
+        width: 604
+        height: 322
+      alignment: 9
+      pivot: {x: 0.17557915, y: 0.6159122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba62b63c9d3bd1848b6a1309a0845ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 8392
+        y: 4458
+        width: 605
+        height: 322
+      alignment: 9
+      pivot: {x: 0.15298134, y: 0.5289769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c875d91550af2949a334bbb789d103c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 4457
+        width: 604
+        height: 323
+      alignment: 9
+      pivot: {x: 0.13695642, y: 0.60110897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8369f49b8a110a644a039402900ab218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 10439
+        y: 4457
+        width: 604
+        height: 323
+      alignment: 9
+      pivot: {x: 0.2266482, y: 0.5666723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc43af500179c814fab650f77b42befb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 11466
+        y: 4454
+        width: 603
+        height: 326
+      alignment: 9
+      pivot: {x: 0.19048151, y: 0.56605875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7839b434faa87994ea87432f3760c3d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3431
+        width: 608
+        height: 326
+      alignment: 9
+      pivot: {x: 0.16941532, y: 0.6761572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611b4cb9d2a713e46bc9af929d10c0ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 3431
+        width: 605
+        height: 328
+      alignment: 9
+      pivot: {x: 0.2152364, y: 0.56565595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99c6abeb497fba48b1975814a856b9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 3432
+        width: 605
+        height: 327
+      alignment: 9
+      pivot: {x: 0.1440458, y: 0.56585747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed1490c32b67b34bb7063f876181fc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 3439
+        width: 605
+        height: 327
+      alignment: 9
+      pivot: {x: 0.15591063, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988ab5ed0fbb60243aab98de0ae2663f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 4296
+        y: 3431
+        width: 603
+        height: 328
+      alignment: 9
+      pivot: {x: 0.17857894, y: 0.5218856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615f90e8a7fbf5b4195ac8a15842786d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 3432
+        width: 605
+        height: 327
+      alignment: 9
+      pivot: {x: 0.16777505, y: 0.58780926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb42fb3272c5e74eb9b000edb834a27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 6353
+        y: 3431
+        width: 605
+        height: 328
+      alignment: 9
+      pivot: {x: 0.13218056, y: 0.5218856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28ee5070d3695241bb48b5e432cac39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 7368
+        y: 3431
+        width: 603
+        height: 326
+      alignment: 9
+      pivot: {x: 0.15476978, y: 0.54403895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c880de70ddf4c2419320b56bee1ef0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 8394
+        y: 3432
+        width: 603
+        height: 327
+      alignment: 9
+      pivot: {x: 0.16667314, y: 0.543905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aca8ae8dd524641bce91b384a9062a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 9418
+        y: 3432
+        width: 604
+        height: 325
+      alignment: 9
+      pivot: {x: 0.15533973, y: 0.5441752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8b433baa4d0314dba01fa8132f6891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 3431
+        width: 603
+        height: 326
+      alignment: 9
+      pivot: {x: 0.19048314, y: 0.5880786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33582b6fba9974daac161b3b524058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 11464
+        y: 3432
+        width: 605
+        height: 325
+      alignment: 9
+      pivot: {x: 0.15591103, y: 0.5220876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691fff7f876ade04381597385ad8bc40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2407
+        width: 603
+        height: 325
+      alignment: 9
+      pivot: {x: 0.20238757, y: 0.6766992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1947c2a64aa0a4d90240637c457a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2406
+        width: 602
+        height: 327
+      alignment: 9
+      pivot: {x: 0.16612066, y: 0.6317142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600c4537d2dee7049ac2301758d68eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2406
+        width: 604
+        height: 327
+      alignment: 9
+      pivot: {x: 0.17911069, y: 0.6097617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af98069b0e4dca446b1dde424a562b10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 2407
+        width: 604
+        height: 326
+      alignment: 9
+      pivot: {x: 0.16722582, y: 0.56605875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477fc1266a725d4f9af35a531276361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 4297
+        y: 2407
+        width: 602
+        height: 326
+      alignment: 9
+      pivot: {x: 0.20189294, y: 0.54403895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08062b03890f194699a848abdfd1e1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 5322
+        y: 2407
+        width: 603
+        height: 325
+      alignment: 9
+      pivot: {x: 0.19048314, y: 0.5441752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ae9b183adcd84ebdebbbb20007c35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 6343
+        y: 2407
+        width: 608
+        height: 324
+      alignment: 9
+      pivot: {x: 0.21664107, y: 0.5664673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43c5a367c59204ebc234c58dddac08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 7374
+        y: 2414
+        width: 604
+        height: 324
+      alignment: 9
+      pivot: {x: 0.21476372, y: 0.47784424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdb87146417ada43a377d870a9473cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 8392
+        y: 2406
+        width: 605
+        height: 325
+      alignment: 9
+      pivot: {x: 0.20337035, y: 0.6104372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85488966e699af64bbed325bfb673264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 2407
+        width: 607
+        height: 324
+      alignment: 9
+      pivot: {x: 0.21617426, y: 0.58862305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e9ea296c7dbca4a8aa8da2c8058bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 2407
+        width: 603
+        height: 324
+      alignment: 9
+      pivot: {x: 0.2023865, y: 0.58862305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aace78b0bcb3e6f40a8d74912bef6330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 11464
+        y: 2407
+        width: 605
+        height: 324
+      alignment: 9
+      pivot: {x: 0.22710162, y: 0.58862305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e371d9262b7b39a43a5b0a60bb363a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1384
+        width: 599
+        height: 322
+      alignment: 9
+      pivot: {x: 0.21238421, y: 0.5891735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ec5927e60f8446bfd6be205db3e4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1385
+        width: 605
+        height: 322
+      alignment: 9
+      pivot: {x: 0.2152364, y: 0.56687975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4277367cde23d42a87616b6c955dd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1381
+        width: 609
+        height: 326
+      alignment: 9
+      pivot: {x: 0.21710676, y: 0.61009806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d46fdfa93068409529d5cfb304a28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 1381
+        width: 609
+        height: 326
+      alignment: 9
+      pivot: {x: 0.21710676, y: 0.52201945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f409d1fd3ee6ce643a75c1f19b065979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 1385
+        width: 604
+        height: 322
+      alignment: 9
+      pivot: {x: 0.226649, y: 0.54458636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cce1840a5ef5b74d9ff6ce47e9cf3fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 1387
+        width: 605
+        height: 320
+      alignment: 9
+      pivot: {x: 0.25083128, y: 0.56729853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce0aa60852c384090720e9f2a5b7a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 6346
+        y: 1385
+        width: 605
+        height: 322
+      alignment: 9
+      pivot: {x: 0.19150633, y: 0.5222934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4a8c6cf80c924da4c4d63897656cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 7368
+        y: 1385
+        width: 603
+        height: 322
+      alignment: 9
+      pivot: {x: 0.23810148, y: 0.56687975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c9aaaeb24d24946986aeacef2bb7d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 8392
+        y: 1381
+        width: 605
+        height: 329
+      alignment: 9
+      pivot: {x: 0.19150472, y: 0.52181906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fbd1ca73489a64bb73d79649b17078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 9418
+        y: 1385
+        width: 605
+        height: 325
+      alignment: 9
+      pivot: {x: 0.20337197, y: 0.5662628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31140000b480d5489f85c3c88c07396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 10443
+        y: 1381
+        width: 600
+        height: 329
+      alignment: 9
+      pivot: {x: 0.2607194, y: 0.6090945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0d3d661bf2f3049a350fdcfed51684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 11464
+        y: 1379
+        width: 605
+        height: 331
+      alignment: 9
+      pivot: {x: 0.20337035, y: 0.565062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eee2360b8c4a4047a0756543b2f734e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 359
+        width: 607
+        height: 327
+      alignment: 9
+      pivot: {x: 0.20434882, y: 0.52195287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b92c44b5c3f164dbb5958e94125233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 360
+        width: 604
+        height: 326
+      alignment: 9
+      pivot: {x: 0.22665001, y: 0.54403967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d2a7cdc69f93d4fbf52c56440c208d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 360
+        width: 605
+        height: 326
+      alignment: 9
+      pivot: {x: 0.23896687, y: 0.588079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff7971fa9bad24d873b98303cf9e9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 360
+        width: 607
+        height: 326
+      alignment: 9
+      pivot: {x: 0.21617426, y: 0.56605935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108664c0a9cfa5648beebde0f34b4f40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 4296
+        y: 359
+        width: 603
+        height: 322
+      alignment: 9
+      pivot: {x: 0.23810148, y: 0.5668801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e139ee0e1722fe44abc7b36cf869388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 359
+        width: 604
+        height: 321
+      alignment: 9
+      pivot: {x: 0.20288005, y: 0.5447262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30798f092aceb8441a185b1ce6854a2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 6346
+        y: 359
+        width: 605
+        height: 322
+      alignment: 9
+      pivot: {x: 0.1796407, y: 0.5668801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb09008fdbd1fb4bbbcc6f650071685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 7367
+        y: 360
+        width: 604
+        height: 321
+      alignment: 9
+      pivot: {x: 0.2266498, y: 0.5894509}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08a73fb8ddd8c4e81bb05197524a5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 8392
+        y: 361
+        width: 605
+        height: 320
+      alignment: 9
+      pivot: {x: 0.22710001, y: 0.54486525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa0342869499304ea3513ab6f58e4b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 9417
+        y: 359
+        width: 606
+        height: 322
+      alignment: 9
+      pivot: {x: 0.2157059, y: 0.5891735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bf2ecf7733e244ba06af4a78814d2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 358
+        width: 603
+        height: 323
+      alignment: 9
+      pivot: {x: 0.21503486, y: 0.551484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709012712e6a1b649bf376cbb9291686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 11464
+        y: 359
+        width: 605
+        height: 327
+      alignment: 9
+      pivot: {x: 0.23430075, y: 0.55085385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7fa5346703fae47bad9a8d5435bc59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 11308
+        y: 547
+        width: 402
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e34717da80d2c4ab9198401ad70c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 765c3ed1938e09a4dbe96d60054abebf
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,217 @@
+<idea-plugin>
+  <id>com.intellij.resharper.unity</id>
+  <name>Unity Support</name>
+  <version>2019.1.0.9999</version>
+  <vendor url="https://www.jetbrains.com">JetBrains</vendor>
+
+  <depends>com.intellij.modules.rider</depends>
+  <depends optional="true" config-file="PluginYamlPluginPart.xml">org.jetbrains.plugins.yaml</depends>
+  <depends optional="true" config-file="PluginAppenderPluginPart.xml">rider.intellij.plugin.appender</depends>
+
+  <extensionPoints>
+    <extensionPoint name="unityAttachConfiguration" area="IDEA_PROJECT" interface="com.jetbrains.rider.run.configurations.unity.UnityAttachConfigurationExtension" />
+  </extensionPoints>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <configurationType implementation="com.jetbrains.rider.plugins.unity.run.configurations.UnityDebugConfigurationType" />
+    <postStartupActivity implementation="com.jetbrains.rider.plugins.unity.ui.UnityUIMinimizer"/>
+
+    <applicationConfigurable groupId="language" instance="com.jetbrains.rider.settings.UnityPluginOptionsPage" id="preferences.build.unityPlugin" />
+
+    <projectConfigurable parentId="FileTemplatesSettingsId" instance="com.jetbrains.rider.settings.templates.UnityFileTemplatesOptionPage" groupWeight="-120" />
+
+    <!-- This has to be first, as the default Rider handler returns an empty list instead of null, and IJ considers that handled -->
+    <lang.documentationProvider language="C#" implementationClass="com.jetbrains.rider.plugins.unity.quickDoc.UnityDocumentationProvider"
+                                order="first" />
+
+    <!-- For future reference, fileTypeFactory[@id] defines the name used in the @language attributes of the other
+         registration elements. This @id MUST match the value returned by FileType.getName() - case sensitive! -->
+
+    <!-- ShaderLab support -->
+    <fileTypeFactory id="ShaderLab" implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.shaderLab.ShaderLabFileTypeFactory" />
+    <lang.altEnter language="ShaderLab" implementationClass="com.jetbrains.rider.intentions.altEnter.ReSharperAltEnterActionHandler" />
+    <lang.parserDefinition language="ShaderLab" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.shaderLab.ShaderLabParserDefinition" />
+    <lang.syntaxHighlighterFactory language="ShaderLab" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.shaderLab.ShaderLabSyntaxHighlighterProvider" />
+    <backend.markup.adapterFactory language="ShaderLab" implementationClass="com.jetbrains.rdclient.daemon.FrontendMarkupAdapterFactory" />
+    <backend.actions.support language="ShaderLab" implementationClass="com.jetbrains.rider.actions.RiderActionSupportPolicy" />
+    <backend.autoPopup.support language="ShaderLab" implementationClass="com.jetbrains.rider.completion.BackendAndGenericRider" />
+    <iconProvider implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.shaderLab.ShaderLabIconProvider" />
+    <completion.contributor language="ShaderLab" implementationClass="com.jetbrains.rdclient.completion.ProtocolCompletionContributor" />
+    <completion.contributor language="ShaderLab" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgCompletionContributor" />
+
+    <!-- Cg support -->
+    <fileTypeFactory id="Cg" implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgFileTypeFactory" />
+    <lang.parserDefinition language="Cg" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgParserDefinition" />
+    <lang.syntaxHighlighterFactory language="Cg" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgSyntaxHighlighterProvider" />
+    <backend.markup.adapterFactory language="Cg" implementationClass="com.jetbrains.rdclient.daemon.FrontendMarkupAdapterFactory" />
+    <backend.actions.support language="Cg" implementationClass="com.jetbrains.rider.actions.RiderActionSupportPolicy" />
+    <iconProvider implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgIconProvider" />
+    <completion.contributor language="Cg" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.cg.CgCompletionContributor" />
+
+    <!-- asmdef support -->
+    <fileTypeFactory id="AsmDef" implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.asmdef.AsmDefFileTypeFactory"/>
+    <lang.altEnter language="AsmDef" implementationClass="com.jetbrains.rider.intentions.altEnter.ReSharperAltEnterActionHandler" />
+    <lang.documentationProvider language="AsmDef" implementationClass="com.jetbrains.rdclient.quickDoc.FrontendDocumentationProvider"/>
+    <lang.parserDefinition language="AsmDef" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.asmdef.AsmDefParserDefinition" />
+    <lang.syntaxHighlighterFactory language="AsmDef" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.asmdef.AsmDefSyntaxHighlighterProvider" />
+    <backend.actions.support language="AsmDef" implementationClass="com.jetbrains.rider.actions.RiderActionSupportPolicy" />
+    <backend.markup.adapterFactory language="AsmDef" implementationClass="com.jetbrains.rdclient.daemon.FrontendMarkupAdapterFactory" />
+    <backend.typedHandler language="AsmDef" implementationClass="com.jetbrains.rdclient.editorActions.FrontendTypedHandler"/>
+    <completion.contributor language="AsmDef" implementationClass="com.jetbrains.rdclient.completion.ProtocolCompletionContributor" />
+
+    <fileTypeFactory id="UnityYaml" implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.yaml.UnityYamlFileTypeFactory" />
+    <iconProvider implementation="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.yaml.UnityYamlIconProvider" />
+    <lang.altEnter language="UnityYaml" implementationClass="com.jetbrains.rider.intentions.altEnter.ReSharperAltEnterActionHandler" />
+    <lang.parserDefinition language="UnityYaml" implementationClass="com.jetbrains.rider.plugins.unity.ideaInterop.fileTypes.yaml.UnityYamlParserDefinition" />
+    <backend.actions.support language="UnityYaml" implementationClass="com.jetbrains.rider.actions.RiderActionSupportPolicy" />
+    <backend.markup.adapterFactory language="UnityYaml" implementationClass="com.jetbrains.rdclient.daemon.FrontendMarkupAdapterFactory" />
+    <backend.typedHandler language="UnityYaml" implementationClass="com.jetbrains.rdclient.editorActions.FrontendTypedHandler"/>
+
+    <!-- Unity Explorer -->
+    <projectViewPane implementation="com.jetbrains.rider.plugins.unity.explorer.UnityExplorer" id="UnityExplorer" order="first, before SolutionExplorer"/>
+    <projectModelViewUpdater implementation="com.jetbrains.rider.plugins.unity.explorer.UnityExplorerProjectModelViewUpdater"/>
+
+    <xdebugger.attachDebuggerProvider implementation="com.jetbrains.rider.plugins.unity.run.attach.UnityAttachEditorDebuggerProvider" />
+
+    <rider.android.project.validator implementation="com.jetbrains.rider.plugins.unity.android.UnityCustomAndroidProjectValidator"/>
+    <rdclient.traceScenarioHolder implementation="com.jetbrains.rider.plugins.unity.logs.UnityLogTraceScenarios"/>
+
+  </extensions>
+
+  <project-components>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.ui.UnitTest.UnitTestLauncherState</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.UnityProjectDiscoverer</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.ui.UnityUIManager</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.UnityConfigurationImpl</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.notifications.AutoSaveNotification</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.notifications.OutOfSyncEditorNotification</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.notifications.YamlHugeFileNotification</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.settings.RiderUnitySettings</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.run.DefaultRunConfigurationGenerator</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.UnityHost</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.SaveAllTracker</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.toolWindow.UnityToolWindowManager</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.toolWindow.UnityToolWindowFactory</implementation-class></component>
+    <component><implementation-class>com.jetbrains.rider.plugins.unity.notifications.OpenUnityProjectAsFolderNotification</implementation-class></component>
+  </project-components>
+
+  <actions>
+
+    <group id="UnityToolbarActions">
+      <add-to-group group-id="ActiveRuntimeGroup" relative-to-action="BuildSolutionAction" anchor="after" />
+
+      <separator/>
+      <group id="UnityShowImportantAction" popup="true" class="com.jetbrains.rider.plugins.unity.ui.UnityImportantActions" text="Important Unity-related Actions">
+        <action class="com.jetbrains.rider.plugins.unity.actions.StartUnityAction" id="StartUnityAction" />
+        <action class="com.jetbrains.rider.plugins.unity.actions.AttachToUnityProcessAction" id="AttachToUnityProcessAction" />
+        <action class="com.jetbrains.rider.plugins.unity.actions.UnityPluginShowSettingsAction" id="ShowUnitySettingsInRider" />
+        <separator/>
+        <action class="com.jetbrains.rider.plugins.unity.ui.SwitchUIMode" id="SwitchUIModeAction" />
+        <action class="com.jetbrains.rider.plugins.unity.actions.ShowUnityLogInRiderAction" id="ShowUnityLogInRiderAction" />
+        <action class="com.jetbrains.rider.plugins.unity.actions.InstallEditorPluginAction" id="InstallEditorPluginAction" />
+
+      </group>
+
+      <action id="TriggerRefreshInUnity" class="com.jetbrains.rider.plugins.unity.actions.RefreshInUnityAction" text="Trigger Refresh In Unity Editor" />
+      <action id="TriggerPlayInUnity" class="com.jetbrains.rider.plugins.unity.actions.PlayInUnityAction"/>
+      <action id="TriggerPauseInUnityEditor" class="com.jetbrains.rider.plugins.unity.actions.PauseInUnityAction"  />
+      <action id="TriggerStepInUnityEditor" class="com.jetbrains.rider.plugins.unity.actions.StepInUnityAction" />
+      <separator/>
+    </group>
+
+    <group id="Rider.UnitTesting.TopToolbar.MiscOptions.Unity">
+      <add-to-group group-id="Rider.UnitTesting.TopToolbar.MiscOptions.Plugin" anchor="last"/>
+      <action id="UnityTestLauncher" class="com.jetbrains.rider.plugins.unity.ui.UnitTest.SwitchUnitTestLauncherComboBoxAction"/>
+    </group>
+
+    <action id="AttachToUnityProcess" class="com.jetbrains.rider.plugins.unity.actions.AttachToUnityProcessAction">
+      <add-to-group group-id="XDebugger.AttachGroup" anchor="after" relative-to-action="XDebugger.AttachToLocalProcess" />
+    </action>
+
+    <action id="ShowReferencePropertiesAction" class="com.jetbrains.rider.plugins.unity.explorer.ShowReferencePropertiesAction" text="Properties...">
+      <add-to-group group-id="SolutionExplorerPopupMenu" anchor="last" />
+    </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- IDEA default schemes -->
+    <additionalTextAttributes file="colorSchemes/default_additional.xml" scheme="Default" />
+    <additionalTextAttributes file="colorSchemes/darcula_additional.xml" scheme="Darcula" />
+  </extensions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- IDEA default schemes -->
+    <additionalTextAttributes file="colorSchemes/default_additional.xml" scheme="Default" />
+    <additionalTextAttributes file="colorSchemes/darcula_additional.xml" scheme="Darcula" />
+  </extensions>
+
+
+  <description><![CDATA[
+<p>Adds support for the Unity engine.</p>
+<p>
+<strong>Features</strong>
+<ul>
+  <li>Code completion of event function declarations in a class.</li>
+  <li>Use Generate Code to create event functions, with parameters, or start typing for automatic completion.</li>
+  <li>Highlights Unity event functions and serializable fields and marks as implicitly used by Unity.</li>
+  <li>Supports Unity API 5.0 - 2018.3, plus undocumented functions.</li>
+  <li>Inspections, Quick Fixes and Context Actions for Unity specific issues, with documented explanations.</li>
+  <li>Performance indicators to avoid known code patterns that affect performance.</li>
+  <li>Parse class and method usage from scene, prefab and assets.</li>
+  <li>Support for ShaderLab and Assembly Definition files.</li>
+  <li>Automatically connect debugger to Unity editor.</li>
+  <li>Lists and debugs external players.</li>
+  <li>Extra Unity data in debugger views.</li>
+  <li>Play/pause/step directly from Rider.</li>
+  <li>View Unity console in Rider, with parsed stack traces and text filter.</li>
+  <li>Run Unity editor tests directly from Rider.</li>
+  <li>Unity Explorer to view project as shown in Unity's Assets view, with Packages.</li>
+  <li>Navigate to external Unity documentation.</li>
+  <li>Correctly updates <tt>.meta</tt> files.</li>
+  <li>Code completion, rename and find usages for "magic strings" in method calls.</li>
+  <li>Automatically adds <tt>FormerlySerializedAs</tt> attribute when renaming fields.</li>
+  <li>Automatically sets Unity projects to C# 4 or C# 6. No more suggestions for features that won't compile!</li>
+  <li>Highlights <tt>UnityEngine.Color</tt> and <tt>Color32</tt>. Edit via colour palette quick fix.</li>
+  <li>Unity specific file and live templates.</li>
+  <li>And much more!</li>
+</ul>
+</p>
+<p>
+<strong>Links</strong>
+<ul>
+  <li><a href="https://github.com/JetBrains/resharper-unity">GitHub</a>
+  <li><a href="https://github.com/JetBrains/resharper-unity/issues">Issues</a>
+</ul>
+</p>
+]]>
+  </description>
+  <change-notes>
+<![CDATA[
+<p>
+<strong>New in 2019.1</strong>
+<em>Added:</em>
+<ul>
+  <li>Add inspection and quick fix to avoid inefficient order of multiplication operations (<a href="https://github.com/JetBrains/resharper-unity/issues/1031">#1031</a>)</li>
+  <li>Add warning for string literal use in <tt>Animator.ResetTrigger</tt> (<a href="https://youtrack.jetbrains.com/issue/RIDER-24421">RIDER-24421</a>, <a href="https://github.com/JetBrains/resharper-unity/issues/1035">#1035</a>)</li>
+  <li>Add support for marking ECS types and fields as "in use" (<a href="https://github.com/JetBrains/resharper-unity/issues/1010">#1010</a>, <a href="https://github.com/JetBrains/resharper-unity/pull/1036">#1036</a>)</li>
+  <li>Rider: Support for git packages in Unity Explorer</li>
+  <li>Rider: Add notification if there isn't a player log to show (<a href="https://github.com/JetBrains/resharper-unity/issues/820">#820</a>, <a href="https://github.com/JetBrains/resharper-unity/pull/1006">#1006</a> - thanks @ajon542!)</li>
+</ul>
+<em>Changed:</em>
+<ul>
+  <li>Rider: Graceful handling of out of sync Unity Editor plugin versions (<a href="https://github.com/JetBrains/resharper-unity/pull/963">#963</a>)</li>
+  <li>Unity Editor: Allow opening assets imported by <tt>ScriptedImporters</tt> (<a href="https://github.com/JetBrains/resharper-unity/issues/981">#981</a>, <a href="https://github.com/JetBrains/resharper-unity/pull/995">#995</a>)</li>
+</ul>
+<em>Fixed:</em>
+<ul>
+  <li>Rider: Show packages from correct per-project cache in Unity Explorer</li>
+  <li>Rider: Fix creation of Unity class library project if can't find Unity install (<a href="https://github.com/JetBrains/resharper-unity/issue/1013">#1013</a>, <a href="https://github.com/JetBrains/resharper-unity/pull/1014">#1014</a>)</li>
+  <li>Unity Editor: Use unique name for log file (<a href="https://github.com/JetBrains/resharper-unity/pull/1020">#1020</a>)</li>
+  <li>Unity Editor: Don't call Unity API in batch mode (<a href="https://github.com/JetBrains/resharper-unity/pull/1020">#1020</a>)</li>
+  <li>Unity Editor: Fix exception during Unity shutdown (<a href="https://youtrack.jetbrains.com/issue/RIDER-19688">RIDER-19688</a>, <a href="https://github.com/JetBrains/resharper-unity/pull/979">#979</a>)</li>
+</ul>
+</p>
+<p>See the <a href="https://github.com/JetBrains/resharper-unity/blob/191/CHANGELOG.md">CHANGELOG</a> for more details and history.</p>
+]]>
+  </change-notes>
+</idea-plugin>

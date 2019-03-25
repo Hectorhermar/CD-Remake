@@ -1,0 +1,12 @@
+﻿using UnityEngine;
+
+public class A : MonoBehaviour
+{
+    private void Example()
+    {
+        InvokeRepeating("|UndefinedMethod|(0)", 2, 0.3F);
+    }
+}
+
+------------------------------------------------
+0: result=NOT_RESOLVED declaredElem=null

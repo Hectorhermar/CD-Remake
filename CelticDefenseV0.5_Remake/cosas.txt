@@ -1,0 +1,20 @@
+Cosas
+
+-El muro se destruye pero no reactiva el navmesh, ni pone attack a false. Además, solo afecta al primer enemigo
+a rango de muro. 
+
+-También esta el problema de que cuando construyes un muro, si el personaje esta pasando justo
+por el espacio donde sale el muro, se glitchea dentro de este. No se me ocurre de que manera controlar eso a no ser
+que el prefab de wait que digamos seria el muro en construccion tenga algo que ya mantenga a los enemigos fuera de 
+rango , como un collider o algo del estilo, para que al aparecer el muro sea seguro que no haya ningun personaje dentro
+que pueda quedarse atrapado.
+
+-El efecto de monedas al activar el ragdoll despues de derrotar a un enemigo se glitchea un poco(este efecto
+solo esta implentado para pruebas en los esqueletos, que salen desde el cementerio) construye torres en la parte 
+baja del mapa para ver el efecto.
+
+-el unico boton funcional de torre es el que aparece una ballesta, clica  en los monticulos
+con señal ,arrastra hasta el icono de ballesta y suelta. ese queremos que sea el control , pero la torre aparece en cuanto 
+pasa el raton por encima.
+
+si detecto mas cosas te escribo.

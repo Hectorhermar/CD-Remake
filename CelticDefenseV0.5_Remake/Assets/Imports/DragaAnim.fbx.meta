@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 7821a817b5ecc8b47a01fc649efd8bbb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arpa
+    100002: Brazo_Izquierdo1
+    100004: Cara_Dadga
+    100006: Cara_Dadga 1
+    100008: Codo_Derecha
+    100010: Codo_Izquierda
+    100012: CuelloDadga
+    100014: Cuerpo_ParteInferior1
+    100016: Cuerpo_ParteInferior2
+    100018: Cuerpo_ParteInferior3
+    100020: Cuerpo_ParteInferior4
+    100022: Cuerpo_ParteInferior5
+    100024: Cuerpo_ParteInferior6
+    100026: Cuerpo_ParteSuperior1
+    100028: Cuerpo_ParteSuperior2
+    100030: Cuerpo_ParteSuperior3
+    100032: Cuerpo_ParteSuperior4
+    100034: Cuerpo_ParteSuperior5
+    100036: Cuerpo_ParteSuperior6
+    100038: Cuerpo_ParteSuperior7
+    100040: Cuerpo_ParteSuperior8
+    100042: Diadema_Dadga
+    100044: //RootNode
+    100046: Hombro_Derecha
+    100048: Hombro_Izquierda1
+    100050: locator2
+    100052: Mano_Derecha1
+    100054: Mano_Derecha2
+    100056: Mano_Izquierda2
+    100058: ManoDerecha1Constrein
+    100060: Maza1
+    100062: PeloDadga
+    100064: Plataform_Torre
+    100066: Tronco
+    400000: Arpa
+    400002: Brazo_Izquierdo1
+    400004: Cara_Dadga
+    400006: Cara_Dadga 1
+    400008: Codo_Derecha
+    400010: Codo_Izquierda
+    400012: CuelloDadga
+    400014: Cuerpo_ParteInferior1
+    400016: Cuerpo_ParteInferior2
+    400018: Cuerpo_ParteInferior3
+    400020: Cuerpo_ParteInferior4
+    400022: Cuerpo_ParteInferior5
+    400024: Cuerpo_ParteInferior6
+    400026: Cuerpo_ParteSuperior1
+    400028: Cuerpo_ParteSuperior2
+    400030: Cuerpo_ParteSuperior3
+    400032: Cuerpo_ParteSuperior4
+    400034: Cuerpo_ParteSuperior5
+    400036: Cuerpo_ParteSuperior6
+    400038: Cuerpo_ParteSuperior7
+    400040: Cuerpo_ParteSuperior8
+    400042: Diadema_Dadga
+    400044: //RootNode
+    400046: Hombro_Derecha
+    400048: Hombro_Izquierda1
+    400050: locator2
+    400052: Mano_Derecha1
+    400054: Mano_Derecha2
+    400056: Mano_Izquierda2
+    400058: ManoDerecha1Constrein
+    400060: Maza1
+    400062: PeloDadga
+    400064: Plataform_Torre
+    400066: Tronco
+    2100000: Cuerpo_ParteSuperior
+    2100002: Cuerpo_ParteInferior
+    2100004: Plataforma_torre
+    2100006: Pelo_Dadga
+    2100008: Cara_dadga
+    2100010: diadema_dadga
+    2100012: Brazos_Inferiores
+    2100014: Hombreras
+    2100016: Mano_derecha
+    2100018: pinchos_maza
+    2100020: Cuero_Maza
+    2100022: Maza
+    2100024: mango_maza
+    2100026: Mano_Izquierda
+    2100028: Arpa_exterior
+    2100030: cuerdas_arpa
+    2300000: Arpa
+    2300002: Brazo_Izquierdo1
+    2300004: Cara_Dadga 1
+    2300006: Codo_Derecha
+    2300008: Codo_Izquierda
+    2300010: CuelloDadga
+    2300012: Cuerpo_ParteInferior1
+    2300014: Cuerpo_ParteInferior2
+    2300016: Cuerpo_ParteInferior3
+    2300018: Cuerpo_ParteInferior4
+    2300020: Cuerpo_ParteInferior5
+    2300022: Cuerpo_ParteInferior6
+    2300024: Cuerpo_ParteSuperior1
+    2300026: Cuerpo_ParteSuperior2
+    2300028: Cuerpo_ParteSuperior3
+    2300030: Cuerpo_ParteSuperior4
+    2300032: Cuerpo_ParteSuperior5
+    2300034: Cuerpo_ParteSuperior6
+    2300036: Cuerpo_ParteSuperior7
+    2300038: Cuerpo_ParteSuperior8
+    2300040: Diadema_Dadga
+    2300042: Hombro_Derecha
+    2300044: Hombro_Izquierda1
+    2300046: Mano_Derecha1
+    2300048: Mano_Derecha2
+    2300050: Mano_Izquierda2
+    2300052: Maza1
+    2300054: PeloDadga
+    2300056: Plataform_Torre
+    3300000: Arpa
+    3300002: Brazo_Izquierdo1
+    3300004: Cara_Dadga 1
+    3300006: Codo_Derecha
+    3300008: Codo_Izquierda
+    3300010: CuelloDadga
+    3300012: Cuerpo_ParteInferior1
+    3300014: Cuerpo_ParteInferior2
+    3300016: Cuerpo_ParteInferior3
+    3300018: Cuerpo_ParteInferior4
+    3300020: Cuerpo_ParteInferior5
+    3300022: Cuerpo_ParteInferior6
+    3300024: Cuerpo_ParteSuperior1
+    3300026: Cuerpo_ParteSuperior2
+    3300028: Cuerpo_ParteSuperior3
+    3300030: Cuerpo_ParteSuperior4
+    3300032: Cuerpo_ParteSuperior5
+    3300034: Cuerpo_ParteSuperior6
+    3300036: Cuerpo_ParteSuperior7
+    3300038: Cuerpo_ParteSuperior8
+    3300040: Diadema_Dadga
+    3300042: Hombro_Derecha
+    3300044: Hombro_Izquierda1
+    3300046: Mano_Derecha1
+    3300048: Mano_Derecha2
+    3300050: Mano_Izquierda2
+    3300052: Maza1
+    3300054: PeloDadga
+    3300056: Plataform_Torre
+    4300000: Cuerpo_ParteSuperior1
+    4300002: Cuerpo_ParteSuperior2
+    4300004: Cuerpo_ParteSuperior3
+    4300006: Cuerpo_ParteSuperior4
+    4300008: Cuerpo_ParteSuperior5
+    4300010: Cuerpo_ParteSuperior6
+    4300012: Cuerpo_ParteSuperior7
+    4300014: Cuerpo_ParteSuperior8
+    4300016: Cuerpo_ParteInferior1
+    4300018: Cuerpo_ParteInferior2
+    4300020: Cuerpo_ParteInferior3
+    4300022: Cuerpo_ParteInferior4
+    4300024: Cuerpo_ParteInferior5
+    4300026: Cuerpo_ParteInferior6
+    4300028: Plataform_Torre
+    4300030: PeloDadga
+    4300032: CuelloDadga
+    4300034: Diadema_Dadga
+    4300036: Cara_Dadga
+    4300038: Hombro_Derecha
+    4300040: Mano_Derecha2
+    4300042: Codo_Derecha
+    4300044: Mano_Derecha1
+    4300046: Maza1
+    4300048: Hombro_Izquierda1
+    4300050: Mano_Izquierda2
+    4300052: Codo_Izquierda
+    4300054: Brazo_Izquierdo1
+    4300056: Arpa
+    7400000: DragaAttack
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DragaAttack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 60
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.59999996
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>JetBrains.Rider.Unity.Editor.Plugin</AssemblyName>
+    <RootNamespace>JetBrains.Rider.Unity.Editor</RootNamespace>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>UNITY_4_7</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Unity.Libs.4.7.2f1" Version="2017.7.21" />
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.15.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="AfterUnity56\**" />
+    <None Remove="AfterUnity56\**" />
+    <EmbeddedResource Remove="AfterUnity56\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="JetBrains.Annotations">
+      <HintPath>..\lib\JetBrains.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Platform.RdCore35">
+      <HintPath>..\lib\JetBrains.Platform.RdCore35.dll</HintPath>
+    </Reference>
+    <Reference Include="JetBrains.Platform.RdFramework35">
+      <HintPath>..\lib\JetBrains.Platform.RdFramework35.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\lib\pdb2mdb.exe" />
+  </ItemGroup>
+  <!-- The ILRepack.targets file is automatically imported if it exists
+       AND we are in Release. But we require it for Debug builds, too,
+       as it's a required artifact for the backend plugin -->
+  <PropertyGroup>
+    <ILRepackTargetsFile>$(MSBuildThisFileDirectory)ILRepack.targets</ILRepackTargetsFile>
+  </PropertyGroup>
+  <Import Project="$(ILRepackTargetsFile)" Condition="'$(Configuration)' != 'Release'" />
+</Project>

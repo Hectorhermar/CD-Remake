@@ -1,0 +1,3837 @@
+fileFormatVersion: 2
+guid: 2bd1415a34af65945bae85b1c173766d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dead_tileset_0
+    21300002: dead_tileset_1
+    21300004: dead_tileset_2
+    21300006: dead_tileset_3
+    21300008: dead_tileset_4
+    21300010: dead_tileset_5
+    21300012: dead_tileset_6
+    21300014: dead_tileset_7
+    21300016: dead_tileset_8
+    21300018: dead_tileset_9
+    21300020: dead_tileset_10
+    21300022: dead_tileset_11
+    21300024: dead_tileset_12
+    21300026: dead_tileset_13
+    21300028: dead_tileset_14
+    21300030: dead_tileset_15
+    21300032: dead_tileset_16
+    21300034: dead_tileset_17
+    21300036: dead_tileset_18
+    21300038: dead_tileset_19
+    21300040: dead_tileset_20
+    21300042: dead_tileset_21
+    21300044: dead_tileset_22
+    21300046: dead_tileset_23
+    21300048: dead_tileset_24
+    21300050: dead_tileset_25
+    21300052: dead_tileset_26
+    21300054: dead_tileset_27
+    21300056: dead_tileset_28
+    21300058: dead_tileset_29
+    21300060: dead_tileset_30
+    21300062: dead_tileset_31
+    21300064: dead_tileset_32
+    21300066: dead_tileset_33
+    21300068: dead_tileset_34
+    21300070: dead_tileset_35
+    21300072: dead_tileset_36
+    21300074: dead_tileset_37
+    21300076: dead_tileset_38
+    21300078: dead_tileset_39
+    21300080: dead_tileset_40
+    21300082: dead_tileset_41
+    21300084: dead_tileset_42
+    21300086: dead_tileset_43
+    21300088: dead_tileset_44
+    21300090: dead_tileset_45
+    21300092: dead_tileset_46
+    21300094: dead_tileset_47
+    21300096: dead_tileset_48
+    21300098: dead_tileset_49
+    21300100: dead_tileset_50
+    21300102: dead_tileset_51
+    21300104: dead_tileset_52
+    21300106: dead_tileset_53
+    21300108: dead_tileset_54
+    21300110: dead_tileset_55
+    21300112: dead_tileset_56
+    21300114: dead_tileset_57
+    21300116: dead_tileset_58
+    21300118: dead_tileset_59
+    21300120: dead_tileset_60
+    21300122: dead_tileset_61
+    21300124: dead_tileset_62
+    21300126: dead_tileset_63
+    21300128: dead_tileset_64
+    21300130: dead_tileset_65
+    21300132: dead_tileset_66
+    21300134: dead_tileset_67
+    21300136: dead_tileset_68
+    21300138: dead_tileset_69
+    21300140: dead_tileset_70
+    21300142: dead_tileset_71
+    21300144: dead_tileset_72
+    21300146: dead_tileset_73
+    21300148: dead_tileset_74
+    21300150: dead_tileset_75
+    21300152: dead_tileset_76
+    21300154: dead_tileset_77
+    21300156: dead_tileset_78
+    21300158: dead_tileset_79
+    21300160: dead_tileset_80
+    21300162: dead_tileset_81
+    21300164: dead_tileset_82
+    21300166: dead_tileset_83
+    21300168: dead_tileset_84
+    21300170: dead_tileset_85
+    21300172: dead_tileset_86
+    21300174: dead_tileset_87
+    21300176: dead_tileset_88
+    21300178: dead_tileset_89
+    21300180: dead_tileset_90
+    21300182: dead_tileset_91
+    21300184: dead_tileset_92
+    21300186: dead_tileset_93
+    21300188: dead_tileset_94
+    21300190: dead_tileset_95
+    21300192: dead_tileset_96
+    21300194: dead_tileset_97
+    21300196: dead_tileset_98
+    21300198: dead_tileset_99
+    21300200: dead_tileset_100
+    21300202: dead_tileset_101
+    21300204: dead_tileset_102
+    21300206: dead_tileset_103
+    21300208: dead_tileset_104
+    21300210: dead_tileset_105
+    21300212: dead_tileset_106
+    21300214: dead_tileset_107
+    21300216: dead_tileset_108
+    21300218: dead_tileset_109
+    21300220: dead_tileset_110
+    21300222: dead_tileset_111
+    21300224: dead_tileset_112
+    21300226: dead_tileset_113
+    21300228: dead_tileset_114
+    21300230: dead_tileset_115
+    21300232: dead_tileset_116
+    21300234: dead_tileset_117
+    21300236: dead_tileset_118
+    21300238: dead_tileset_119
+    21300240: dead_tileset_120
+    21300242: dead_tileset_121
+    21300244: dead_tileset_122
+    21300246: dead_tileset_123
+    21300248: dead_tileset_124
+    21300250: dead_tileset_125
+    21300252: dead_tileset_126
+    21300254: dead_tileset_127
+    21300256: dead_tileset_128
+    21300258: dead_tileset_129
+    21300260: dead_tileset_130
+    21300262: dead_tileset_131
+    21300264: dead_tileset_132
+    21300266: dead_tileset_133
+    21300268: dead_tileset_134
+    21300270: dead_tileset_135
+    21300272: dead_tileset_136
+    21300274: dead_tileset_137
+    21300276: dead_tileset_138
+    21300278: dead_tileset_139
+    21300280: dead_tileset_140
+    21300282: dead_tileset_141
+    21300284: dead_tileset_142
+    21300286: dead_tileset_143
+    21300288: dead_tileset_144
+    21300290: dead_tileset_145
+    21300292: dead_tileset_146
+    21300294: dead_tileset_147
+    21300296: dead_tileset_148
+    21300298: dead_tileset_149
+    21300300: dead_tileset_150
+    21300302: dead_tileset_151
+    21300304: dead_tileset_152
+    21300306: dead_tileset_153
+    21300308: dead_tileset_154
+    21300310: dead_tileset_155
+    21300312: dead_tileset_156
+    21300314: dead_tileset_157
+    21300316: dead_tileset_158
+    21300318: dead_tileset_159
+    21300320: dead_tileset_160
+    21300322: dead_tileset_161
+    21300324: dead_tileset_162
+    21300326: dead_tileset_163
+    21300328: dead_tileset_164
+    21300330: dead_tileset_165
+    21300332: dead_tileset_166
+    21300334: dead_tileset_167
+    21300336: dead_tileset_168
+    21300338: dead_tileset_169
+    21300340: dead_tileset_170
+    21300342: dead_tileset_171
+    21300344: dead_tileset_172
+    21300346: dead_tileset_173
+    21300348: dead_tileset_174
+    21300350: dead_tileset_175
+    21300352: dead_tileset_176
+    21300354: dead_tileset_177
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dead_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 22613
+        width: 716
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df95e2b7ed112e342bd3e1ea25409eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 22589
+        width: 844
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da233bec1b5039a40bf7996efa6fb408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 22533
+        width: 812
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e139c4740e9ddb408b2f23bc2028554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 3265
+        y: 22589
+        width: 756
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e081d26e1d5f224b9a82d6b51bea3a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 4294
+        y: 22589
+        width: 636
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c65096cda13c447bc3ff9391367814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 5235
+        y: 22613
+        width: 764
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a907e1f0944bc7b40a7a2323fe6d9430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 6280
+        y: 22589
+        width: 716
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec016ed612c86764db94c2aee09019b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 7390
+        y: 22621
+        width: 611
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62792f9c1e169a54a95935cce559d473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 21528
+        width: 748
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5563f91724987684c9d69cb43798ed3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 21592
+        width: 707
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a87e09ae790f084e8200e2404abcbc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 21608
+        width: 756
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd617f622775ec43b09144097b972dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 21608
+        width: 684
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be88595f06ffd0c4696715f0577559f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 4294
+        y: 21632
+        width: 764
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b7f1a8c4ffb134c953a7b1a24db308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 5187
+        y: 21656
+        width: 740
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01852814e94dfc740b14d926ed8523df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 21640
+        width: 756
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719043e01d237f841b7896b503804698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 21648
+        width: 836
+        height: 587
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cde778a4100a745a431e0934ab6314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 20571
+        width: 708
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0b4bfb099d69a4996d971eea6438d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 20531
+        width: 723
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf2eac54662af4395c6cc2ca78ebf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 20563
+        width: 804
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea8a9ca2f9b5942b3959b36c74d478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 20563
+        width: 772
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda929dc637d334698a1e11d21304d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 20571
+        width: 836
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628586280fdca64bb341d5901912d1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 5251
+        y: 20587
+        width: 796
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dce7ccc7c8352d44940fe3d2d539861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 6232
+        y: 20603
+        width: 884
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a83fbdca9f6b9345a9a57fbb2ed1e33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 7390
+        y: 20571
+        width: 643
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8aff9790aadc04ca7d0094c7e1546f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 19550
+        width: 715
+        height: 659
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf291209406e14990b4d7ac55572d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 19598
+        width: 877
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13291de382f14674c91405edd421a928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 19558
+        width: 836
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8727d72d40c7eef4fb9f7a73cb498176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 19550
+        width: 828
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed7f1f0c5da60e4ab502859fc370cdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 4198
+        y: 19534
+        width: 764
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcab4fdbb853f84c89b9f46ee01c8a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 5147
+        y: 19526
+        width: 876
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf79549111552648be60c0faffa6317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 19534
+        width: 772
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e026c548006a6741b3e8c26edb2e756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 7213
+        y: 19518
+        width: 860
+        height: 723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bb8ef592b97b14a893eedce0bef2aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 18539
+        width: 689
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bbdf3cea1116746805356a2635db85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 18500
+        width: 893
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09741e646b003e43a3138d8376241fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 18481
+        width: 767
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a229d313891c540bcc9eeccc87a5f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 18510
+        width: 816
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2eb64e5fb13ed4aaad352f06fe91f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 4193
+        y: 18491
+        width: 797
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc76d488c63ed3043a94f0bc4bf4d422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 5193
+        y: 18500
+        width: 835
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db3a9959b7fe9943901dc1cbe35b497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 6193
+        y: 18491
+        width: 903
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc553168cb806e5498cbe5324aa27ead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 18529
+        width: 660
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d6a97b1376df46af7ffc5539e0a80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 17500
+        width: 764
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78159844b8a36d246b9e4ac027490299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 17532
+        width: 839
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d66cf5af192674c950bdfc44bde148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 17543
+        width: 732
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14ef9650599fb4aa2d0d3d941a4c91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 3139
+        y: 17489
+        width: 850
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2ae895e4bd63e42a34cf006cc8e280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 4182
+        y: 17521
+        width: 818
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e631ccc2d5bc64784de005373c638c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 5258
+        y: 17510
+        width: 796
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5286529dced84f241ab40c37b6581333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 6269
+        y: 17467
+        width: 796
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf97e6b0eafe7c42bd69cb015c55d72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 7312
+        y: 17435
+        width: 732
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f00c4d0ed9744ebd756dedbd48cb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 16413
+        width: 785
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4787ef4de985e4b94963d497c5fbe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 16478
+        width: 785
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778ee5de9c21fa4c8512de5758c9b6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 16392
+        width: 861
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d2057123ab28346bb464cf92d5635a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 16488
+        width: 807
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8d0c77f796a4b40a1d5e127ca56301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 16424
+        width: 850
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84daee1a72f8d2c4e8ff36a3b429c21a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 5204
+        y: 16478
+        width: 807
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13f56dc4434e8642b2a149ce99ef56c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 16478
+        width: 753
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03663c95c5fffaf4bbfa9ac44c6ba457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 7226
+        y: 16402
+        width: 829
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608cb14790402f34fafb14d7522d7d8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15391
+        width: 914
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1859eb1222e264428bb0c1d8c6d0644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 15467
+        width: 699
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8007200adf4b756438a305fcf2a966ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 15456
+        width: 818
+        height: 688
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56512d2984d7299459cdb275131adae4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 15434
+        width: 849
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7cf60c2d34b9b44bf71a837497d7b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 4247
+        y: 15434
+        width: 807
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d0aeea7a11a64c9b37f1cc9fb81c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_61
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 15424
+        width: 796
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce565869abcec84a8599a26122278cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_62
+      rect:
+        serializedVersion: 2
+        x: 6248
+        y: 15413
+        width: 774
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a00a6cd05168f419a4c7e23e703491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_63
+      rect:
+        serializedVersion: 2
+        x: 7237
+        y: 15424
+        width: 839
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde1bfcb108dff2488ec2a00781fdd13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_64
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 14369
+        width: 818
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8035d652e0cba2c429a061fcab928544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_65
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 14369
+        width: 775
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf25659dd82e74eb3bc7f1486d4b34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_66
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 14434
+        width: 861
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a7c26a5fba8a742930475de2d9631b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_67
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 14391
+        width: 828
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7333bed327d98344da3d4546d4e04f5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_68
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 14369
+        width: 914
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5b06e7db818dc49bee66481c00c8a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_69
+      rect:
+        serializedVersion: 2
+        x: 5247
+        y: 14369
+        width: 753
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67afccc12469cb44899c307d9d6b5c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 6237
+        y: 14359
+        width: 807
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809dccf21b37c074894cbd3c0ea0e4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 7248
+        y: 14359
+        width: 839
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe09ff94450a8b04fb4dc7583d3bb122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 13348
+        width: 817
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696847f5aa27a074689b6cbe795a599a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 13380
+        width: 925
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e470208cd9613459a760e5e6567b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 13326
+        width: 915
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3371f36973d2da47b7992e87fc4e844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 13315
+        width: 796
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b7c4199d8437e46aafca1dea672fb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 13315
+        width: 774
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cacfdffe59b4242a6af72313ccbee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 5301
+        y: 13337
+        width: 742
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f539c856d804d44ca6078f645f66841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_78
+      rect:
+        serializedVersion: 2
+        x: 6237
+        y: 13369
+        width: 860
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c8b078006ee04a81e57aff8d0891f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_79
+      rect:
+        serializedVersion: 2
+        x: 7323
+        y: 13380
+        width: 764
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eee28f02829911478bb8d57e54d22b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 12328
+        width: 885
+        height: 813
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef534fb52a0962b48b1e002c7a17ee47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_81
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 12313
+        width: 885
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114127e6dfe15c43b65a88d2bb39e77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_82
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 12285
+        width: 756
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c07d3338ab84634d9c0dc8f6f8230c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_83
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 12299
+        width: 814
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c39bf01d09fd354f9fe7b9b8fcec87f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_84
+      rect:
+        serializedVersion: 2
+        x: 4127
+        y: 12328
+        width: 870
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e610b95d05efa4fafadf4325121256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_85
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 12299
+        width: 713
+        height: 742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3357f538a2ea0b241b86e4ae137b1997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_86
+      rect:
+        serializedVersion: 2
+        x: 6239
+        y: 12256
+        width: 842
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f93a1b3ab79f3f41b313809c6848514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_87
+      rect:
+        serializedVersion: 2
+        x: 7238
+        y: 12271
+        width: 785
+        height: 785
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ed71e530d1f7a4d9228895cf903f7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_88
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 11214
+        width: 956
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e8790940d623e4b802c47ead500e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_89
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 11143
+        width: 828
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ee2fbc36dfc34b85a4f7e303eb0ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_90
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 11229
+        width: 956
+        height: 813
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8684280f90bcd4c91afbafb0a24126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_91
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 11271
+        width: 828
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8252d747e346f6d428ff4288fa58f51f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_92
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 11271
+        width: 800
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1a524fd25435e43b5c781ec7178808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_93
+      rect:
+        serializedVersion: 2
+        x: 5311
+        y: 11286
+        width: 757
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd69ac7e72c15064397b5661f444f27e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_94
+      rect:
+        serializedVersion: 2
+        x: 6225
+        y: 11329
+        width: 842
+        height: 756
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6f73ea7c8ff3345b48be58f603c324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_95
+      rect:
+        serializedVersion: 2
+        x: 7338
+        y: 11314
+        width: 771
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478cea2a862f6a5488b453623b505b82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_96
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 10258
+        width: 871
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693c08d7222ac774fb3a169283a7556f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_97
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 10215
+        width: 914
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b4060da6300154c9532d085c05fead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_98
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 10172
+        width: 884
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d733ccbd52d17754d8e0f3729451586e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_99
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 10215
+        width: 885
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe889edef7e8a5642a05f576ef1c2e8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_100
+      rect:
+        serializedVersion: 2
+        x: 4141
+        y: 10244
+        width: 871
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edc4faf023d6c243847e11b28ecb4f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_101
+      rect:
+        serializedVersion: 2
+        x: 5169
+        y: 10187
+        width: 927
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b24370439219841a6013923462cb62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_102
+      rect:
+        serializedVersion: 2
+        x: 6310
+        y: 10230
+        width: 857
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdfc4f00e6b85b409df979b6be0cf4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_103
+      rect:
+        serializedVersion: 2
+        x: 7338
+        y: 10258
+        width: 799
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c736423798bea644c825316e20d82929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_104
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 9141
+        width: 892
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ce8f50c586d9b49adf4b6dbfb3eac3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_105
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 9227
+        width: 864
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736ca134a83fe6347b5281b1d7750ab0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_106
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 9256
+        width: 849
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d1b8a7ccab34c4b9f2496a5c7c8817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_107
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 9213
+        width: 778
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d74624dba2d714b8ca25e075e56ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_108
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 9213
+        width: 821
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690525a563dd6674497932cf0b665483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_109
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 9256
+        width: 878
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173e96b91bff9524e9b40ba5b71f1302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_110
+      rect:
+        serializedVersion: 2
+        x: 6274
+        y: 9299
+        width: 835
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7aa8711628844da23c4f959be9fec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_111
+      rect:
+        serializedVersion: 2
+        x: 7311
+        y: 9256
+        width: 791
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b280915953d60a4d837e7b0b949d7ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_112
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 8234
+        width: 935
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a64b45f0d65d7d44981aa44ee314c31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_113
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 8191
+        width: 878
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bdadf8a14b72a46a4ce16f372d8a85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_114
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 8220
+        width: 791
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23622158846144b42b7686761815a537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_115
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 8248
+        width: 893
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87923eb5c002dae42b4443e26c94e03c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_116
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 8248
+        width: 892
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93a8d0962502724bafbcac5413f1d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_117
+      rect:
+        serializedVersion: 2
+        x: 5310
+        y: 8205
+        width: 734
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6984f157bedf41a5167ba52431620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_118
+      rect:
+        serializedVersion: 2
+        x: 6188
+        y: 8234
+        width: 907
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8768fb3885f6ae4099fe5628253d310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_119
+      rect:
+        serializedVersion: 2
+        x: 7210
+        y: 8292
+        width: 878
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6db6e236374ce84fa929cbf6e078c10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_120
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 7299
+        width: 748
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c151f6c3ce5301468bae0f19a93d6cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_121
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 7184
+        width: 691
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be1f31bc716ea4f978d20dbe7a3ffa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_122
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 7184
+        width: 777
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69e27931590da640ac19b28f8e6d163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_123
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 7212
+        width: 762
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec1c87c86789a2418936cc66e1a4e20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_124
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 7169
+        width: 878
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4152fc52cee3bda448191d5aaf94605d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_125
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 7112
+        width: 806
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa40f0d090fb3f44198aa9745d8d2f3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_126
+      rect:
+        serializedVersion: 2
+        x: 6202
+        y: 7126
+        width: 878
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26c88d6bad816541a8d7bc524698fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_127
+      rect:
+        serializedVersion: 2
+        x: 7296
+        y: 7112
+        width: 849
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c40495ef1ea44408c908511e8adeb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_128
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 6119
+        width: 820
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013b1fff5fe2cfe4db14995faaad4ebc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_129
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 6176
+        width: 821
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b96a54a20200254993623767469dbc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 6147
+        width: 791
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99017abccdf1e454f8beff0f1efc6a52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 6205
+        width: 762
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a8f2690f8d0a4d94a54ef0fe741f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 6176
+        width: 791
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2a71136d24e7b44a8ed41f2a41abfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 6263
+        width: 936
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483a839d6a2523a4e89da0579c0b2583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_134
+      rect:
+        serializedVersion: 2
+        x: 6274
+        y: 6219
+        width: 821
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f7c944f09f9fa42b4d345e14c70165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_135
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 6234
+        width: 806
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1bd9854c4950d458b3001ac720077f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_136
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 5140
+        width: 777
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b4d84155df953499ca3a4f108be8bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_137
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 5126
+        width: 893
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814a8265b7e9d4498cf65ebd9a275b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_138
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 5155
+        width: 849
+        height: 733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c41f43c35c389469d974b38df8f066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_139
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 5255
+        width: 864
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa303555b7e6fbf4d96acf9019ca2afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_140
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 5226
+        width: 791
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bdfb77f6fc1cd42ab03e8a5d22cc0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_141
+      rect:
+        serializedVersion: 2
+        x: 5138
+        y: 5212
+        width: 820
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9971359238d830d4fbfba3b971da64ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_142
+      rect:
+        serializedVersion: 2
+        x: 6131
+        y: 5169
+        width: 935
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfd8d1e9c57df44e9ff3bf4b6d9e0fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_143
+      rect:
+        serializedVersion: 2
+        x: 7239
+        y: 5126
+        width: 906
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa089f2eaaec514bb6ef2982568a21f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_144
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4075
+        width: 979
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d39ae827a398154795f66a9f10e5949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_145
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 4032
+        width: 849
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e053eb2615d0f44a948885e8df62af4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_146
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 4061
+        width: 863
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d8c9ac4cd0f6847b81ee040a1e90cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_147
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 4205
+        width: 748
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2920b764d461747ac9a89b4b18354f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_148
+      rect:
+        serializedVersion: 2
+        x: 4188
+        y: 4147
+        width: 849
+        height: 763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79410bacd387fb247b02f5cff70b26e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_149
+      rect:
+        serializedVersion: 2
+        x: 5210
+        y: 4075
+        width: 863
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ac5db2a6c5a04fafae72a8a9536fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 6361
+        y: 4046
+        width: 719
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d3ca51314928843a843586c9672868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_151
+      rect:
+        serializedVersion: 2
+        x: 7224
+        y: 4003
+        width: 892
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c201fd56c75fab5499253b944e15a768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_152
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 3097
+        width: 949
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fd2f2281612940a3242ebb2b0501f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_153
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 3082
+        width: 763
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8b8600444c8f4ebdbbc328548eae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_154
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 3068
+        width: 748
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f49b757674dc946bc5b970661a3586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_155
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 3068
+        width: 835
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda6971b6a651642a89c6e858a061ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_156
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 3126
+        width: 878
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2083c203071e3414f937b5056f9df6a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_157
+      rect:
+        serializedVersion: 2
+        x: 5210
+        y: 3068
+        width: 877
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea70a88b89e6c84d96d292db38e2326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_158
+      rect:
+        serializedVersion: 2
+        x: 6289
+        y: 3097
+        width: 791
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce911049449b4bd44949cbeb58f0f572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_159
+      rect:
+        serializedVersion: 2
+        x: 7224
+        y: 3054
+        width: 964
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3538582f57f2f944c9fe90b7ffdca95d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_160
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2075
+        width: 906
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c2a1c1f2b100f459d6fc2f793bc138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_161
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2089
+        width: 849
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63209c92d7e2ab4191a68d7e5e14479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_162
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2147
+        width: 748
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829ae03e40037340a74ee3626f02376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_163
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 2133
+        width: 849
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0825014929309c549915ce6f20bd95ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_164
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 2046
+        width: 936
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4b8c2de07e7be4d804fbf97c6a009c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_165
+      rect:
+        serializedVersion: 2
+        x: 5210
+        y: 2104
+        width: 849
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadf1d731a786bb45a456b7af66c0896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_166
+      rect:
+        serializedVersion: 2
+        x: 6217
+        y: 2118
+        width: 978
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef993822b21957145a4743ec5bcbba11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_167
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 2118
+        width: 792
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855f32bd8ee32c645bd6a6dd2270e7bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_168
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1053
+        width: 849
+        height: 777
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ace1f6bacd27468d0a43f48d3c109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_169
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1025
+        width: 950
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be682c29853814649933b0377241ef9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_170
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1025
+        width: 877
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb2f3ffb73a0e34fad21b9ee16116b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_171
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1010
+        width: 863
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9857ca5b181197e41b678322cf6b5203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_172
+      rect:
+        serializedVersion: 2
+        x: 4101
+        y: 1010
+        width: 893
+        height: 864
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2104547f8209bf54e9eefd7af4fd2438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_173
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 1025
+        width: 935
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2288667c75f1dc649a171ffffb819cc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_174
+      rect:
+        serializedVersion: 2
+        x: 6289
+        y: 1068
+        width: 849
+        height: 820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a038da9268920448c9aad762ec2ade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_175
+      rect:
+        serializedVersion: 2
+        x: 7354
+        y: 1068
+        width: 762
+        height: 806
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0cfbfc91a6a5d40862ce3bed82b854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 1065
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6551b57062eb1c645a3fdcb0e7fe2535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dead_tileset_177
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 118
+        width: 950
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197202762956d994797991c2026b5e63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: edd65d9876b730c41972d5a0b30dd2af
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

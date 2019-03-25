@@ -1,0 +1,9 @@
+﻿{
+  "name": "Test01",
+  "references": [ "Unresolved", "|Test01|(0)" ]
+}
+
+------------------------------------------------
+0: Cannot reference self
+QUICKFIXES:
+Remove invalid value

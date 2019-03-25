@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: 6100042bcb21b0f4c8f9ea847b076647
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: base_Cuerpo
+    100002: bottom
+    100004: c_ala_der
+    100006: c_ala_izq
+    100008: c_codo_der
+    100010: c_codo_izq
+    100012: c_cola
+    100014: c_cola_medio
+    100016: c_cola_punta
+    100018: c_hombro_der
+    100020: c_hombro_izq
+    100022: c_mano_der
+    100024: c_mano_iz
+    100026: c_pie_der
+    100028: c_pie_izq
+    100030: c_puntaDeAla_der
+    100032: c_puntaDeAla_izq
+    100034: c_rodilla_der
+    100036: c_rodilla_iz
+    100038: c_trito_pelvisROOT
+    100040: c_trito_tronco
+    100042: c_triton_cabeza
+    100044: c_triton_cuello
+    100046: c_triton_peana
+    100048: c_triton_pecho
+    100050: geo_wing_l
+    100052: geo_wing_r
+    100054: grp_c_curvas
+    100056: grp_iks
+    100058: grp_joints
+    100060: grp_textures
+    100062: ikHandle1
+    100064: ikHandle2
+    100066: joint1
+    100068: joint11
+    100070: joint12
+    100072: joint13
+    100074: joint14
+    100076: joint15
+    100078: joint2
+    100080: joint2 1
+    100082: joint21
+    100084: joint21 1
+    100086: joint22
+    100088: joint22 1
+    100090: joint23
+    100092: joint23 1
+    100094: joint24
+    100096: joint24 1
+    100098: joint25
+    100100: joint26
+    100102: joint26 1
+    100104: joint27
+    100106: joint27 1
+    100108: joint28
+    100110: joint28 1
+    100112: joint29
+    100114: joint29 1
+    100116: joint3
+    100118: joint3 1
+    100120: joint30
+    100122: joint36
+    100124: joint4
+    100126: joint4 1
+    100128: joint42
+    100130: joint47
+    100132: joint5
+    100134: joint6
+    100136: joint7
+    100138: joint8
+    100140: joint9
+    100142: joint_triton
+    100144: ojo__izq
+    100146: ojo_der
+    100148: place3dTexture1
+    100150: place3dTexture3
+    100152: place3dTexture4
+    100154: place3dTexture5
+    100156: Triton
+    100158: triton
+    100160: triton_geometria
+    100162: triton_rig
+    100164: //RootNode
+    100166: Wings:batWings
+    400000: base_Cuerpo
+    400002: bottom
+    400004: c_ala_der
+    400006: c_ala_izq
+    400008: c_codo_der
+    400010: c_codo_izq
+    400012: c_cola
+    400014: c_cola_medio
+    400016: c_cola_punta
+    400018: c_hombro_der
+    400020: c_hombro_izq
+    400022: c_mano_der
+    400024: c_mano_iz
+    400026: c_pie_der
+    400028: c_pie_izq
+    400030: c_puntaDeAla_der
+    400032: c_puntaDeAla_izq
+    400034: c_rodilla_der
+    400036: c_rodilla_iz
+    400038: c_trito_pelvisROOT
+    400040: c_trito_tronco
+    400042: c_triton_cabeza
+    400044: c_triton_cuello
+    400046: c_triton_peana
+    400048: c_triton_pecho
+    400050: geo_wing_l
+    400052: geo_wing_r
+    400054: grp_c_curvas
+    400056: grp_iks
+    400058: grp_joints
+    400060: grp_textures
+    400062: ikHandle1
+    400064: ikHandle2
+    400066: joint1
+    400068: joint11
+    400070: joint12
+    400072: joint13
+    400074: joint14
+    400076: joint15
+    400078: joint2
+    400080: joint2 1
+    400082: joint21
+    400084: joint21 1
+    400086: joint22
+    400088: joint22 1
+    400090: joint23
+    400092: joint23 1
+    400094: joint24
+    400096: joint24 1
+    400098: joint25
+    400100: joint26
+    400102: joint26 1
+    400104: joint27
+    400106: joint27 1
+    400108: joint28
+    400110: joint28 1
+    400112: joint29
+    400114: joint29 1
+    400116: joint3
+    400118: joint3 1
+    400120: joint30
+    400122: joint36
+    400124: joint4
+    400126: joint4 1
+    400128: joint42
+    400130: joint47
+    400132: joint5
+    400134: joint6
+    400136: joint7
+    400138: joint8
+    400140: joint9
+    400142: joint_triton
+    400144: ojo__izq
+    400146: ojo_der
+    400148: place3dTexture1
+    400150: place3dTexture3
+    400152: place3dTexture4
+    400154: place3dTexture5
+    400156: Triton
+    400158: triton
+    400160: triton_geometria
+    400162: triton_rig
+    400164: //RootNode
+    400166: Wings:batWings
+    2000000: bottom
+    2100000: reptil1
+    2100002: boca1
+    2100004: alas_buenas1
+    2100006: blanco1
+    2100008: ojo3
+    2300000: ojo__izq
+    2300002: ojo_der
+    3300000: ojo__izq
+    3300002: ojo_der
+    4300000: base_Cuerpo
+    4300002: geo_wing_r
+    4300004: geo_wing_l
+    4300006: ojo__izq
+    4300008: ojo_der
+    7400000: VueloTriton
+    7400002: AtaqueTriton
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: base_Cuerpo
+    13700002: geo_wing_l
+    13700004: geo_wing_r
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: VueloTriton
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AtaqueTriton
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.04
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: c_trito_pelvisROOT
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

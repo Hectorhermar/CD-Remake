@@ -1,0 +1,13 @@
+﻿using System;
+using UnityEngine;
+
+public class MissingConstructor
+{
+    [|SerializeField|(0)] [NonSerialized] public int Value;
+}
+
+------------------------------------------------
+0: Redundant 'SerializeField' attribute
+QUICKFIXES:
+Make type 'MissingConstructor' serializable
+Remove redundant attribute

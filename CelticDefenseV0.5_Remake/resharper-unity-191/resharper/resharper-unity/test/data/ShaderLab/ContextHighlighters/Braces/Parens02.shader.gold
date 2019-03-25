@@ -1,0 +1,19 @@
+﻿// ${MatchingBracePosition:BOTH_SIDES}
+Shader "Foo" {
+  Properties {
+    |_Color|(0:LParenOuter)|(|(1:LParenOuter)"Color", Color|)|(2:LParenOuter) = |(|(3:RParenInner)1,1,1,1|)|(4:RParenInner)
+    _Color2("Color2", Color) = |(|(5:RParenOuter)1,1,1,1|)|(6:RParenOuter)
+    _MainText|(|(7:LParenInner) "Albedo", 2D|)|(8:LParenInner) = "white" {}
+  }
+}
+
+---------------------------------------------------------
+(0:LParenOuter): ReSharper Usage of element under cursor
+(1:LParenOuter): ReSharper Matched Brace
+(2:LParenOuter): ReSharper Matched Brace
+(3:RParenInner): ReSharper Matched Brace
+(4:RParenInner): ReSharper Matched Brace
+(5:RParenOuter): ReSharper Matched Brace
+(6:RParenOuter): ReSharper Matched Brace
+(7:LParenInner): ReSharper Matched Brace
+(8:LParenInner): ReSharper Matched Brace

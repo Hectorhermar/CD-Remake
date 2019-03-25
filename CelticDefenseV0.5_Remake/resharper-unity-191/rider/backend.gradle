@@ -1,0 +1,181 @@
+def backendGroup = 'backend'
+
+import com.jetbrains.rider.plugins.gradle.BackendPaths
+import com.jetbrains.rider.plugins.gradle.tasks.*
+
+ext.backend = new BackendPaths(project, logger, ext.repoRoot, ext.productVersion)
+
+nuget {
+    version = "4.4.1"
+}
+
+// if there's no bundled SDK and we have to build R#, we download & unzip it, changing SDK path
+task unzipReSharperSdk(type: Sync) {
+    group backendGroup
+
+    if (!backend.bundledReSharperSdkPath.isDirectory()) {
+        dependsOn configurations.resharper
+        def zipFile = configurations.resharper.singleFile
+
+        // Unzip to the gradle cache folder, unless we're on Windows, where doing that hits the file path length limit
+        if (isWindows) {
+            backend.downloadedReSharperSdkPath = new File(repoRoot, "resharper/build/JetBrains.ReSharper.SDK")
+        }
+        else {
+            backend.downloadedReSharperSdkPath = new File(zipFile.parentFile, "JetBrains.ReSharper.SDK")
+        }
+
+        from { configurations.resharper.collect { zipTree(it) } }
+        into backend.downloadedReSharperSdkPath
+
+        doFirst {
+          buildServer.progress("Unzipping ReSharper SDK to $backend.downloadedReSharperSdkPath")
+        }
+    }
+}
+
+task prepareRiderBuildProps(type: GenerateBuildPropsTask) {
+    group backendGroup
+
+    packagesDirectory { backend.getRiderSdkPath() }
+    packageName "JetBrains.Rider.SDK"
+    msBuildParameter "RiderSDKVersion"
+}
+
+task prepareReSharperBuildProps(type: GenerateBuildPropsTask) {
+    group backendGroup
+    dependsOn unzipReSharperSdk
+
+    packagesDirectory { backend.getReSharperSdkPath() }
+    packageName "JetBrains.ReSharper.SDK"
+    msBuildParameter "ReSharperSDKVersion"
+}
+
+task prepareBuildProps {
+    dependsOn prepareRiderBuildProps, prepareReSharperBuildProps
+}
+
+task prepareNuGetConfig {
+    dependsOn unzipReSharperSdk
+
+    doLast {
+        def riderSdkPath = backend.getRiderSdkPath()
+        def resharperSdkPath = backend.getReSharperSdkPath()
+
+        assert riderSdkPath.isDirectory()
+        assert resharperSdkPath.isDirectory()
+
+        buildServer.progress("Preparing NuGet.Config")
+
+        def nugetConfigText = """<?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+    <packageSources>
+        <add key="local-rider-sdk" value="$riderSdkPath" />
+        <add key="local-resharper-sdk" value="$resharperSdkPath" />
+    </packageSources>
+    </configuration>
+    """
+        logger.info(nugetConfigText)
+        new File("$repoRoot/resharper/NuGet.Config").text = nugetConfigText
+    }
+}
+
+task restoreReSharperHostPluginPackages(type: nugetRestore.class) {
+    group backendGroup
+    description 'Restores packages for backend plugin'
+    dependsOn prepareBuildProps, prepareNuGetConfig
+
+    solutionFile backend.resharperHostPluginSolution
+    sources = [
+            'https://api.nuget.org/v3/index.json'
+    ]
+    doFirst {
+        project.buildServer.progress("Restoring packages for $solutionFile")
+
+        // Add in doFirst, so we get a chance to download the SDKs
+        sources.add(project.backend.getRiderSdkPath())
+        sources.add(project.backend.getReSharperSdkPath())
+    }
+}
+
+task restoreUnityEditorPluginPackages(type: nugetRestore.class) {
+    group backendGroup
+    description 'Restores packages for Unity Editor plugin'
+
+    solutionFile backend.unityPluginSolution
+    sources = [
+            'https://api.nuget.org/v3/index.json'
+    ]
+    doFirst {
+        project.buildServer.progress("Restoring packages for $solutionFile")
+
+        // Add in doFirst, so we get a chance to download the SDKs
+        sources.add(project.backend.getRiderSdkPath())
+        sources.add(project.backend.getReSharperSdkPath())
+    }
+}
+
+
+task buildReSharperHostPlugin(type: MSBuildTask) {
+    group restoreReSharperHostPluginPackages
+    description 'Builds the full ReSharper backend plugin solution'
+    dependsOn restoreReSharperHostPluginPackages, generateModel
+
+    buildFile = backend.resharperHostPluginSolution
+}
+
+task buildUnityEditorPlugin(type: MSBuildTask) {
+    group backendGroup
+    description 'Builds the Unity editor plugin'
+    dependsOn restoreUnityEditorPluginPackages, generateModel
+
+    buildFile = backend.unityPluginSolution
+}
+
+
+task packReSharperPlugin(type: nugetPack.class) {
+    dependsOn buildReSharperHostPlugin
+    group = backendGroup
+    description = 'Packs resulting DLLs into a NuGet package which is an R# extension.'
+
+    nuspecFile = new File(backend.backendRoot, 'resharper-unity/src/resharper-unity.resharper.nuspec')
+    destinationDir = new File(backend.backendRoot, "build/distributions/$BuildConfiguration")
+    packageAnalysis = false
+    packageVersion = version
+    properties = [
+            'Configuration': BuildConfiguration
+    ]
+
+    def nupkgFile = file(new File(destinationDir, "JetBrains.Unity.${version}.nupkg"))
+    outputs.files(nupkgFile)
+
+    doFirst {
+        buildServer.progress("Packing: $nuspecFile.name")
+    }
+}
+
+nunit {
+    dependsOn buildReSharperHostPlugin
+    nunitVersion "2.6.4"
+    framework "net-4.6.1"
+    shadowCopy false
+    outputs.upToDateWhen { false } // we should always run unit tests when RunTests are true
+
+    def buildDir = new File(backend.repositoryRoot, "resharper/build")
+
+    def riderYamlTestsDll = new File(buildDir, "tests.rider-yaml/bin/$BuildConfiguration/net461/JetBrains.ReSharper.Plugins.Yaml.Tests.Rider.dll")
+    def resharperYamlTestsDll = new File(buildDir, "tests.resharper-yaml/bin/$BuildConfiguration/net461/JetBrains.ReSharper.Plugins.Yaml.Tests.ReSharper.dll")
+
+    def riderUnityTestsDll = new File(buildDir, "tests.rider-unity/bin/$BuildConfiguration/net461/JetBrains.ReSharper.Plugins.Unity.Tests.Rider.dll")
+    def resharperUnityTestsDll = new File(buildDir, "tests.resharper-unity/bin/$BuildConfiguration/net461/JetBrains.ReSharper.Plugins.Unity.Tests.ReSharper.dll")
+
+    testAssemblies = [ riderYamlTestsDll, resharperYamlTestsDll, riderUnityTestsDll, resharperUnityTestsDll ]
+}
+
+task publishCiBackendArtifacts {
+    inputs.file(packReSharperPlugin.outputs)
+
+    doLast {
+        buildServer.publishArtifact(packReSharperPlugin.outputs.files.singleFile)
+    }
+}

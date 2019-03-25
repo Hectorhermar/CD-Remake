@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Alumno\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_LayoutNuevo.279554159.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Alumno\Documents\LayoutNuevo" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="TerrainTools" t="Include">
+            <e p="BridgeTool.cs" t="Include" />
+            <e p="CloneBrushTool.cs" t="Include" />
+            <e p="ErodeHeightTool.cs" t="Include" />
+            <e p="MeshStampTool.cs" t="Include" />
+            <e p="PinchHeight.cs" t="Include" />
+            <e p="RidgeErodeTool.cs" t="Include" />
+            <e p="SharpenHeightTool.cs" t="Include" />
+            <e p="SlopeFlattenTool.cs" t="Include" />
+            <e p="SmudgeHeight.cs" t="Include" />
+            <e p="TerraceErosion.cs" t="Include" />
+            <e p="TwistHeight.cs" t="Include" />
+          </e>
+        </e>
+        <e p="NavMeshControl.cs" t="Include" />
+        <e p="RTS_Camera" t="Include">
+          <e p="Demo" t="Include">
+            <e p="DemoScene.cs" t="Include" />
+            <e p="Projectors" t="Include">
+              <e p="Guidelines.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="ProjectorLight.shader" t="Include" />
+                <e p="ProjectorMultiply.shader" t="Include" />
+              </e>
+            </e>
+            <e p="TargetSelector.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LayoutHelpers.cs" t="Include" />
+              <e p="RTS_CameraEditor.cs" t="Include" />
+            </e>
+            <e p="RTS_Camera.cs" t="Include" />
+            <e p="ui_Menu_Cursor.cs" t="Include" />
+            <e p="WallController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="BulletController.cs" t="Include" />
+          <e p="CameraControl.cs" t="Include" />
+          <e p="DestroyRag.cs" t="Include" />
+          <e p="EnemyGeneratorController.cs" t="Include" />
+          <e p="TowerController.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="CloneBrush.shader" t="Include" />
+          <e p="ErodeHeight.shader" t="Include" />
+          <e p="MeshStamp.shader" t="Include" />
+          <e p="PinchHeight.shader" t="Include" />
+          <e p="RidgeErode.shader" t="Include" />
+          <e p="SetExactHeight.shader" t="Include" />
+          <e p="SharpenHeight.shader" t="Include" />
+          <e p="SlopeFlatten.shader" t="Include" />
+          <e p="SmudgeHeight.shader" t="Include" />
+          <e p="TerraceErosion.shader" t="Include" />
+          <e p="TwistHeight.shader" t="Include" />
+        </e>
+        <e p="Spawner.cs" t="Include" />
+        <e p="SpawnTowerControl.cs" t="Include" />
+        <e p="Water" t="Include">
+          <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+          <e p="Water" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Displace.cs" t="Include" />
+              <e p="GerstnerDisplace.cs" t="Include" />
+              <e p="MeshContainer.cs" t="Include" />
+              <e p="PlanarReflection.cs" t="Include" />
+              <e p="SpecularLighting.cs" t="Include" />
+              <e p="Water.cs" t="Include" />
+              <e p="WaterBase.cs" t="Include" />
+              <e p="WaterTile.cs" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="FXWaterPro.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Water4" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="FXWater4Advanced.shader" t="Include" />
+              <e p="FXWater4Simple.shader" t="Include" />
+              <e p="WaterInclude.cginc" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Water (Basic)" t="Include">
+          <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="WaterBasic.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="FXWaterBasic.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="LayoutNuevo.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

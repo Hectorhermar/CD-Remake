@@ -1,0 +1,65 @@
+﻿|#error|(0) This is an error
+|#warning|(1) This is a warning
+|#line|(2) |23|(3)
+Shader "Unlit/SingleColor"
+{
+|CGINCLUDE|(4)|
+#pragma foo
+|(5)ENDCG
+
+    |/* Block comment. Should have different highlighting to single line comment */|(6)
+    Properties
+    {
+        // Color property for material inspector, default to white
+        _Color ("Main Color", Color) = (|1|(7),|1.0|(8),|1|(9),|1|(10))
+    }
+    |#error|(11) Another error
+    |#warning|(12) Another warning
+    |#line|(13) |42|(14)
+    SubShader
+    {
+        Pass
+        {
+            CGPROGRAM|
+            #pragma vertex vert
+            #pragma fragment frag
+            
+            // vertex shader
+            // this time instead of using "appdata" struct, just spell inputs manually,
+            // and instead of returning v2f struct, also just return a single output
+            // float4 clip position
+            float4 vert (float4 vertex : POSITION) : SV_POSITION
+            {
+                return mul(UNITY_MATRIX_MVP, vertex);
+            }
+            
+            // color from the material
+            fixed4 _Color;
+
+            // pixel shader, no inputs needed
+            fixed4 frag () : SV_Target
+            {
+                return _Color; // just return it
+            }
+            |(15)ENDCG
+        }
+    }
+}
+
+---------------------------------------------------------
+(0): keyword: 
+(1): keyword: 
+(2): keyword: 
+(3): number: 
+(4): keyword: 
+(5): ReSharper Injected Language Background: 
+(6): ReSharper Block Comment: 
+(7): number: 
+(8): number: 
+(9): number: 
+(10): number: 
+(11): keyword: 
+(12): keyword: 
+(13): keyword: 
+(14): number: 
+(15): ReSharper Injected Language Background: 
