@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 113810295}
   - component: {fileID: 113810297}
   - component: {fileID: 113810296}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCube4Hombro_armadura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 179062297}
   - component: {fileID: 179062299}
   - component: {fileID: 179062298}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 264034953}
   - component: {fileID: 264034955}
   - component: {fileID: 264034954}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Espalda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 279648245}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: balelsta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 281629793}
   - component: {fileID: 281629795}
   - component: {fileID: 281629794}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 337275548}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 358904861}
   - component: {fileID: 358904863}
   - component: {fileID: 358904862}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 400871146}
   - component: {fileID: 400871148}
   - component: {fileID: 400871147}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCylinder1Cadera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 403782628}
   - component: {fileID: 403782630}
   - component: {fileID: 403782629}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:polySurface4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 462326136}
   - component: {fileID: 462326138}
   - component: {fileID: 462326137}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Entrada1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 546983290}
   - component: {fileID: 546983292}
   - component: {fileID: 546983291}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +784,7 @@ GameObject:
   - component: {fileID: 639178889}
   - component: {fileID: 639178891}
   - component: {fileID: 639178890}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCube2Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -861,7 +861,7 @@ GameObject:
   - component: {fileID: 665030188}
   - component: {fileID: 665030190}
   - component: {fileID: 665030189}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Pulgar_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 690693125}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: escudo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 697358263}
   - component: {fileID: 697358265}
   - component: {fileID: 697358264}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1048,7 +1048,7 @@ GameObject:
   - component: {fileID: 744521685}
   - component: {fileID: 744521687}
   - component: {fileID: 744521686}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1125,7 @@ GameObject:
   - component: {fileID: 771983927}
   - component: {fileID: 771983929}
   - component: {fileID: 771983928}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCube1Pecho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,7 +1202,7 @@ GameObject:
   - component: {fileID: 874838818}
   - component: {fileID: 874838820}
   - component: {fileID: 874838819}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_3_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 875525217}
   - component: {fileID: 875525219}
   - component: {fileID: 875525218}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Antebrazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1354,7 +1354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900475607}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: group5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1403,7 +1403,7 @@ GameObject:
   - component: {fileID: 907544642}
   - component: {fileID: 907544644}
   - component: {fileID: 907544643}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCube3Cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 944101941}
   - component: {fileID: 944101943}
   - component: {fileID: 944101942}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1555,7 +1555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1053811221}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: cuerpo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1601,7 +1601,7 @@ GameObject:
   - component: {fileID: 1059962877}
   - component: {fileID: 1059962879}
   - component: {fileID: 1059962878}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1678,7 +1678,7 @@ GameObject:
   - component: {fileID: 1095210260}
   - component: {fileID: 1095210262}
   - component: {fileID: 1095210261}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1755,7 +1755,7 @@ GameObject:
   - component: {fileID: 1130533245}
   - component: {fileID: 1130533247}
   - component: {fileID: 1130533246}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1832,7 @@ GameObject:
   - component: {fileID: 1202791985}
   - component: {fileID: 1202791987}
   - component: {fileID: 1202791986}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 1244580609}
   - component: {fileID: 1244580611}
   - component: {fileID: 1244580610}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pPlane2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +1986,7 @@ GameObject:
   - component: {fileID: 1279811691}
   - component: {fileID: 1279811693}
   - component: {fileID: 1279811692}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2063,7 @@ GameObject:
   - component: {fileID: 1408080775}
   - component: {fileID: 1408080777}
   - component: {fileID: 1408080776}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Pulgar_1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2140,7 +2140,7 @@ GameObject:
   - component: {fileID: 1409267966}
   - component: {fileID: 1409267968}
   - component: {fileID: 1409267967}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_3_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2217,7 +2217,7 @@ GameObject:
   - component: {fileID: 1411110936}
   - component: {fileID: 1411110938}
   - component: {fileID: 1411110937}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2294,7 +2294,7 @@ GameObject:
   - component: {fileID: 1455817665}
   - component: {fileID: 1455817667}
   - component: {fileID: 1455817666}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pPipe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2371,7 +2371,7 @@ GameObject:
   - component: {fileID: 1460663732}
   - component: {fileID: 1460663731}
   - component: {fileID: 4456791917055935120}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: LughAnim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2443,7 +2443,7 @@ GameObject:
   - component: {fileID: 1462835274}
   - component: {fileID: 1462835276}
   - component: {fileID: 1462835275}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pCube4Hombro_armadura1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2520,7 @@ GameObject:
   - component: {fileID: 1480069217}
   - component: {fileID: 1480069219}
   - component: {fileID: 1480069218}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Base1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2597,7 +2597,7 @@ GameObject:
   - component: {fileID: 1504877997}
   - component: {fileID: 1504877999}
   - component: {fileID: 1504877998}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Pulgar_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2674,7 +2674,7 @@ GameObject:
   - component: {fileID: 1507328480}
   - component: {fileID: 1507328482}
   - component: {fileID: 1507328481}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Escudo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2751,7 +2751,7 @@ GameObject:
   - component: {fileID: 1529194028}
   - component: {fileID: 1529194030}
   - component: {fileID: 1529194029}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2828,7 +2828,7 @@ GameObject:
   - component: {fileID: 1579906381}
   - component: {fileID: 1579906383}
   - component: {fileID: 1579906382}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2905,7 +2905,7 @@ GameObject:
   - component: {fileID: 1623380250}
   - component: {fileID: 1623380252}
   - component: {fileID: 1623380251}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2982,7 +2982,7 @@ GameObject:
   - component: {fileID: 1668490631}
   - component: {fileID: 1668490633}
   - component: {fileID: 1668490632}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3059,7 +3059,7 @@ GameObject:
   - component: {fileID: 1673837932}
   - component: {fileID: 1673837934}
   - component: {fileID: 1673837933}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Menique_3_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3136,7 +3136,7 @@ GameObject:
   - component: {fileID: 1676488098}
   - component: {fileID: 1676488100}
   - component: {fileID: 1676488099}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3213,7 +3213,7 @@ GameObject:
   - component: {fileID: 1691894860}
   - component: {fileID: 1691894862}
   - component: {fileID: 1691894861}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3290,7 +3290,7 @@ GameObject:
   - component: {fileID: 1712227243}
   - component: {fileID: 1712227245}
   - component: {fileID: 1712227244}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Pulgar_2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3367,7 +3367,7 @@ GameObject:
   - component: {fileID: 1744098952}
   - component: {fileID: 1744098954}
   - component: {fileID: 1744098953}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Mano_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,7 +3444,7 @@ GameObject:
   - component: {fileID: 1761671143}
   - component: {fileID: 1761671145}
   - component: {fileID: 1761671144}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Entrada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3521,7 +3521,7 @@ GameObject:
   - component: {fileID: 1874357262}
   - component: {fileID: 1874357264}
   - component: {fileID: 1874357263}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_3_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3598,7 +3598,7 @@ GameObject:
   - component: {fileID: 1881974509}
   - component: {fileID: 1881974511}
   - component: {fileID: 1881974510}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Anular_1_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3675,7 +3675,7 @@ GameObject:
   - component: {fileID: 1890377327}
   - component: {fileID: 1890377329}
   - component: {fileID: 1890377328}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Corazon_2_L1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3752,7 +3752,7 @@ GameObject:
   - component: {fileID: 1938419953}
   - component: {fileID: 1938419955}
   - component: {fileID: 1938419954}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Hombro_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3829,7 +3829,7 @@ GameObject:
   - component: {fileID: 2005061042}
   - component: {fileID: 2005061044}
   - component: {fileID: 2005061043}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Antebrazo_R1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3906,7 +3906,7 @@ GameObject:
   - component: {fileID: 2073783965}
   - component: {fileID: 2073783967}
   - component: {fileID: 2073783966}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Indice_1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3983,7 +3983,7 @@ GameObject:
   - component: {fileID: 2119966846}
   - component: {fileID: 2119966848}
   - component: {fileID: 2119966847}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4060,7 +4060,7 @@ GameObject:
   - component: {fileID: 2126766561}
   - component: {fileID: 2126766563}
   - component: {fileID: 2126766562}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torre_Lugh_UV:polySurface5Cinturon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4168,7 +4168,7 @@ GameObject:
   - component: {fileID: 8396808592208544929}
   - component: {fileID: 7671162542261828353}
   - component: {fileID: 478312612261015152}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ParteRotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

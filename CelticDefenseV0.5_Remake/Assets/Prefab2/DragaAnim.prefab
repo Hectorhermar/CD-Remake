@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 60552448}
   - component: {fileID: 60552450}
   - component: {fileID: 60552449}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mano_Izquierda2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61a6f3802d581f44cb4c2c85538b6a7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1000
+  speed: 0
   Blood: {fileID: 1000013462590818, guid: ecdd96beb7f93494880c052dfccf9dc1, type: 3}
   PuntoExplosion: {fileID: 2447919281861171288}
 --- !u!1 &308554288
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 308554289}
   - component: {fileID: 308554291}
   - component: {fileID: 308554290}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 310080305}
   - component: {fileID: 310080307}
   - component: {fileID: 310080306}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Hombro_Izquierda1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   - component: {fileID: 335034291}
   - component: {fileID: 335034293}
   - component: {fileID: 335034292}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 444188648}
   - component: {fileID: 444188650}
   - component: {fileID: 444188649}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 491493881}
   - component: {fileID: 491493883}
   - component: {fileID: 491493882}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 529434547}
   - component: {fileID: 529434549}
   - component: {fileID: 529434548}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Plataform_Torre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 909990614}
   - component: {fileID: 909990616}
   - component: {fileID: 909990615}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 954164336}
   - component: {fileID: 954164338}
   - component: {fileID: 954164337}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1005474917}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cara_Dadga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 1057293392}
   - component: {fileID: 1057293394}
   - component: {fileID: 1057293393}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mano_Derecha1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 1078405984}
   - component: {fileID: 1078405986}
   - component: {fileID: 1078405985}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 1113448860}
   - component: {fileID: 1113448862}
   - component: {fileID: 1113448861}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Arpa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ GameObject:
   - component: {fileID: 1171438122}
   - component: {fileID: 1171438124}
   - component: {fileID: 1171438123}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 1302526134}
   - component: {fileID: 1302526136}
   - component: {fileID: 1302526135}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Codo_Izquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 1313653932}
   - component: {fileID: 1313653934}
   - component: {fileID: 1313653933}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 1410999043}
   - component: {fileID: 1410999042}
   - component: {fileID: 4411939238590929102}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: DragaAnim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1560,7 @@ GameObject:
   - component: {fileID: 1509827794}
   - component: {fileID: 1509827796}
   - component: {fileID: 1509827795}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1712,7 +1712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659871038}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ManoDerecha1Constrein
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1746,7 +1746,7 @@ GameObject:
   - component: {fileID: 1671762391}
   - component: {fileID: 1671762393}
   - component: {fileID: 1671762392}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Hombro_Derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1825,7 +1825,7 @@ GameObject:
   - component: {fileID: 1677714025}
   - component: {fileID: 1677714027}
   - component: {fileID: 1677714026}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Brazo_Izquierdo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1902,7 +1902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1705358547}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: locator2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1928861084}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Tronco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2059,7 +2059,7 @@ GameObject:
   - component: {fileID: 1940742987}
   - component: {fileID: 1940742989}
   - component: {fileID: 1940742988}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Codo_Derecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2137,7 +2137,7 @@ GameObject:
   - component: {fileID: 1983732360}
   - component: {fileID: 1983732362}
   - component: {fileID: 1983732361}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Mano_Derecha2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2215,7 +2215,7 @@ GameObject:
   - component: {fileID: 1996909606}
   - component: {fileID: 1996909608}
   - component: {fileID: 1996909607}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2292,7 +2292,7 @@ GameObject:
   - component: {fileID: 2007732317}
   - component: {fileID: 2007732319}
   - component: {fileID: 2007732318}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteInferior5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2369,7 @@ GameObject:
   - component: {fileID: 2082629743}
   - component: {fileID: 2082629745}
   - component: {fileID: 2082629744}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 2115789790}
   - component: {fileID: 2115789792}
   - component: {fileID: 2115789791}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Cuerpo_ParteSuperior8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2524,7 @@ GameObject:
   - component: {fileID: 588153687384997121}
   - component: {fileID: 202481716854876823}
   - component: {fileID: 3647311142639823439}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ParteRotate
   m_TagString: Untagged
   m_Icon: {fileID: 0}

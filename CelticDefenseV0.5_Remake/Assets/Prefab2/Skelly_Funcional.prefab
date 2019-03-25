@@ -1706,7 +1706,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.17
-  m_Speed: 1
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2824,14 +2824,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6393706178633417616}
-  m_LocalRotation: {x: 0.104695685, y: -0.0013063565, z: 0.4076906, w: 0.9070973}
+  m_LocalRotation: {x: 0.38002583, y: -0.21410306, z: 0.599795, w: 0.6708101}
   m_LocalPosition: {x: 5.63368e-10, y: 0.11853213, z: 4.5840796e-11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 261504253225672991}
   m_Father: {fileID: 3473695194351976}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 50.057003, y: 15.228001, z: 90.745}
 --- !u!136 &4120286066472026067
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2842,10 +2842,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.000000007450581
-  m_Height: 0.000000037252903
-  m_Direction: 0
-  m_Center: {x: 0.000000018626451, y: 0, z: 0}
+  m_Radius: 0.015686728
+  m_Height: 0.15
+  m_Direction: 1
+  m_Center: {x: 0.034895383, y: -0.0019059177, z: 0.012050959}
 --- !u!54 &3269049668590063492
 Rigidbody:
   m_ObjectHideFlags: 0
